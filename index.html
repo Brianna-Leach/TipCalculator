@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <div id="calBox">
+        <form>
+            <label for="billTotal">Bill Total:</label>
+            <input type="number" id="billTotal" name="billTotal"> <br>
+            <label for="tip">Tip:</label>
+            <input type="range" id="tip" name="tip" min="0" max="100">
+            <p id="tipPercentage"></p>
+        </form>
+        <div id="results">
+            <p>
+                <strong>Tip Amount: </strong>
+            <p id="tipAmount">$0.00</p>
+            </p>
+            <p>
+                <strong>Total in Full: </strong>
+            <p id="totalInFull">$0.00</p>
+            </p>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
